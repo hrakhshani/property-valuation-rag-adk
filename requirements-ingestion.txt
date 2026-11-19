@@ -1,0 +1,6 @@
+# Extra dependencies for the offline ingestion pipeline (ingestion_pipeline.py).
+# The Cloud Run service only needs requirements.txt.
+-r requirements.txt
+google-cloud-documentai>=3.0
+google-cloud-translate>=3.15
+pypdf>=5.0
